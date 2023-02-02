@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  }
+  
+body {
+    padding-top: 30px; /* ヘッダーの後ろに要素が隠れないようにするため */
+}
+
+header {
+
+}
+
+
+.main {
+
+ }
+  
+ @media screen and (max-width: 1280px) {
+	/* 800px以上に適用されるCSS（タブレット用） */
+}
+@media screen and (max-width: 800px) {
+	/* 1280px以上に適用されるCSS（PC用） */
+}
