@@ -1,26 +1,47 @@
 @charset "UTF-8";
 
-.wrapper {
-  max-width: 1000px;
-  margin: 0 auto;
-  }
+@media screen and (min-width:10px) and (max-width:500px){
   
-body {
-    padding-top: 30px; /* ヘッダーの後ろに要素が隠れないようにするため */
+div.祖 {border:2px solid lime; width: 100%; background-color: rgba(200, 0, 100, 0); display:flex; flex-flow: column; position: relative; }
+div.親1 {border:2px solid pink; width: 90%; height: 200px; background-image: url("Wall png 1.png"); background-size:105% 100%; background-repeat: no-repeat;}
+div.親2 {border:2px solid aqua; width: 100%; height: 500px; position: relative; }
+div.親3 {border:2px solid pink; width: 100%; height: 700px; position: relative; }
+	
+div.子1 {border:2px solid red; position: absolute; width: 20%; height: 20%; margin-top: 0.5%; margin-left: 75%; z-index: 2; background-image: url("Bookdisplay title.png"); background-size:105% 100%; background-repeat: no-repeat; }	
+div.子2 {border:2px solid green; position: absolute; width: 40%; height: 40%; margin-top: 0.5%; margin-left: 25%; z-index: -5; background-image: url("Bookdisplay png 1.png"); background-size:105% 100%; background-repeat: no-repeat; }
+div.子3 {border:2px solid orange; position: absolute; width: 30%; height: 30%; margin-top: 35%; margin-left: 55%; z-index: 1; background-image: url("Bookdisplay png 2.png"); background-size:105% 100%; background-repeat: no-repeat; }
+div.text1 {border:2px solid navy; box-sizing: border-box; width: 99.9%; padding: 0.3% 0.3%; font-family: serif; letter-spacing: 0.1em; line-height: 1.5; font-weight: 550; text-align: center; }
+div.text2 {border:2px solid red; box-sizing: border-box; width: 99.9%;background-color:rgba(0,230,30,0.1); padding: 0.3% 0.3%; font-family: serif; letter-spacing: 0.125em; line-height: 1.5; font-weight: 550; text-align: center; }		  
 }
 
-header {
 
+ @media screen and (min-width:501px) and (max-width:1400px){
+   
+div.祖 {border:2px solid lime; width: 100%; background-color: rgba(200, 0, 100, 0); display:flex; flex-flow: column; position: relative; }
+div.親1 {border:2px solid pink; width: 90%; height: 400px; background-image: url("Wall png 1.png"); background-size:105% 100%; background-repeat: no-repeat;}
+div.親2 {border:2px solid aqua; width: 100%; height: 500px; position: relative; }
+div.親3 {border:2px solid pink; width: 100%; height: 900px; position: relative; }
+	 
+div.子1 {border:2px solid red; position: absolute; width: 20%; height: 20%; margin-top: 0.5%; margin-left: 75%; z-index: 2; background-image: url("Bookdisplay title.png"); background-size:105% 100%; background-repeat: no-repeat; }	
+div.子2 {border:2px solid green; position: absolute; width: 40%; height: 40%; margin-top: 0.5%; margin-left: 25%; z-index: -5; background-image: url("Bookdisplay png 1.png"); background-size:105% 100%; background-repeat: no-repeat; }
+div.子3 {border:2px solid orange; position: absolute; width: 30%; height: 30%; margin-top: 35%; margin-left: 55%; z-index: 1; background-image: url("Bookdisplay png 2.png"); background-size:105% 100%; background-repeat: no-repeat; }
+div.text1 {box-sizing: border-box; width: 99.5%; background-color:rgba(0,30,230,0.1); padding: 0.3% 0.3%; font-size: 120%; font-family: serif; letter-spacing: 0.125em; line-height: 1.75; font-weight: 575; text-align: center; }
+div.text2 {box-sizing: border-box; width: 99.5%; background-color:rgba(0,230,30,0.1); padding: 0.3% 0.3%; font-size: 120%; font-family: serif; letter-spacing: 0.125em; line-height: 1.75; font-weight: 575; text-align: center; }	
+div.footer1 {border:2px solid orange; width: 70%; height: 300px; background-image: url("profile footer dejima 1.jpg"); background-size:105% 100%; background-repeat: no-repeat; }	   
 }
 
+   
+ @media screen and (min-width:1400px) and (max-width:2000px){  
+   
+div.祖 {border:2px solid lime; width: 100%; background-color: rgba(200, 0, 100, 0); display:flex; flex-flow: column; position: relative; }
+div.親1 {border:2px solid pink; width: 90%; height: 500px; background-image: url("Wall png 1.png"); background-size:105% 100%; background-repeat: no-repeat;}
+div.親2 {border:2px solid aqua; width: 100%; height: 750px;  position: relative; }
+div.親3 {border:2px solid pink; width: 100%; height: 750px; position: relative; }
 
-.main {
-
- }
-  
- @media screen and (max-width: 1280px) {
-	/* 800px以上に適用されるCSS（タブレット用） */
-}
-@media screen and (max-width: 800px) {
-	/* 1280px以上に適用されるCSS（PC用） */
+div.子1 {border:2px solid red; position: absolute; width: 20%; height: 20%; margin-top: 0.5%; margin-left: 75%; z-index: 2; background-image: url("Bookdisplay title.png"); background-size:105% 100%; background-repeat: no-repeat; }	
+div.子2 {border:2px solid green; position: absolute; width: 40%; height: 40%; margin-top: 0.5%; margin-left: 25%; z-index: -5; background-image: url("Bookdisplay png 1.png"); background-size:105% 100%; background-repeat: no-repeat; }
+div.子3 {border:2px solid orange; position: absolute; width: 30%; height: 30%; margin-top: 35%; margin-left: 55%; z-index: 1; background-image: url("Bookdisplay png 2.png"); background-size:105% 100%; background-repeat: no-repeat; }
+div.text1 {box-sizing: border-box; width: 40%; background-color:rgba(0,30,230,0.1); padding: 0.3% 0.3%; margin: 10px; font-size: 125%; font-family: serif; letter-spacing: 0.125em; line-height: 2.5; font-weight: 650; text-align: center; }
+div.text2 {box-sizing: border-box; width: 40%; background-color:rgba(0,230,30,0.1); padding: 0.3% 0.3%; margin: 10px; font-size: 125%; font-family: serif; letter-spacing: 0.125em; line-height: 2.5; font-weight: 650; text-align: center; }
+div.footer1 {border:2px solid orange; width: 45%; height: 325px; background-image: url("profile footer dejima 1.jpg"); background-size:105% 100%; background-repeat: no-repeat; }	    
 }
