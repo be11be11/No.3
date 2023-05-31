@@ -14,8 +14,19 @@
 
  <div class="祖">  
  <header>
- 　No.2　<img src="No.2 title.gif">
- </header>
+ 　No.2　<img src="No.2 title.gif" class="No.2_title">
+ <style>
+@media screen and (min-width:10px) and (max-width:500px){
+ .No.2_title {	height: 30px; }
+ }
+  @media screen and (min-width:501px) and (max-width:1400px){
+ .No.2_title {	height: 15%; }
+  }
+   @media screen and (min-width:1400px) and (max-width:2000px){  
+ .No.2_title {	height: 45px; }
+  }
+</style>
+  </header>
  <div class="親1">　</div> 
  <div class="親2"> 
   <div class="子1"> </div> 
