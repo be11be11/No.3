@@ -2,7 +2,7 @@
 
 @media screen and (min-width:10px) and (max-width:500px){
   
-div.祖 {border:2px solid lime; width: 101%; background-color: rgba(200, 0, 100, 0); display:flex; flex-flow: column; position: relative; box-sizing: border-box; }
+div.祖 {border:2px solid lime; width: 101%; background-color: rgba(0, 0, 100, 5); display:flex; flex-flow: column; position: relative; box-sizing: border-box; }
 header {border:2px solid aqua; width: 99%; height: 150px; box-sizing: border-box; font-size: 3vh; }
 .No3_title {border:2px solid red; height: 99.5%; box-sizing: border-box;}	
 div.親1 {border:2px solid pink; width: 100%; height: 200px; background-image: url("Wall png 1.png"); background-size:105% 100%; background-repeat: no-repeat;}
