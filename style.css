@@ -4,7 +4,7 @@
 /* 縦並びはcolumnのみでは不可、要display:flex  padding-bottomは効かない可能性大 */  
 div.祖 {border:2px solid lime; width: 101%; height: 133vh; background-color: rgba(200, 0, 100, 0); display: flex; flex-flow: column; position: relative; }
 header {border:2px solid aqua; width: 70%; height: 12.5vh; position: relative; box-sizing: border-box; font-size: 3vh; font-family: sans-serif; vertical-align: sub; }
-.No3_title {border:2px solid red; position: absolute; bottom: 2.5px; right: 0.5px; width: 70%; height: 95%; object-fit: cover; object-position: 0% 5%; box-sizing: border-box;}	
+.No3_title {border:2px solid red; position: absolute; bottom: 2.5px; right: 0.5px; width: 85%; height: 100%; object-fit: cover; object-position: 50% 50%; box-sizing: border-box;}	
 div.親1 {border:2px solid pink; width: 100%; height: 35vh; background-image: url("Wall png 1.png"); background-size: 131% auto; object-fit: cover; background-position: 0% 0%; background-repeat: no-repeat;}
 div.親2 {border:2px solid aqua; width: 100%; height: 55vh; position: relative; }
 div.親3 {border:2px solid pink; width: 100%; height: 27.5vh; display: flex; flex-flow: column nowrap; position: relative; }
@@ -25,7 +25,7 @@ div.text2 {border:2px solid red; box-sizing: border-box; width: 99.9%;background
    
 div.祖 {border:2px solid lime; width: 101%; height: 133vh; background-color: rgba(200, 0, 100, 0); display: flex; flex-flow: column; position: relative; }
 header {border:2px solid aqua; width: 70%; height: 12.5vh; position: relative; box-sizing: border-box; font-size: 3vh; font-family: sans-serif; vertical-align: sub; }
-.No3_title {border:2px solid red; position: absolute; bottom: 2.5px; right: 0.5px; width: 70%; height: 95%; object-fit: cover; object-position: 0% 5%; box-sizing: border-box;}	
+.No3_title {border:2px solid red; position: absolute; bottom: 2.5px; right: 0.5px; width: 85%; height: 100%; object-fit: cover; object-position: 50% 50%; box-sizing: border-box;}	
 div.親1 {border:2px solid pink; width: 100%; height: 35vh; background-image: url("Wall png 1.png"); background-size: 131% auto; object-fit: cover; background-position: 0% 0%; background-repeat: no-repeat;}
 div.親2 {border:2px solid aqua; width: 100%; height: 55vh; position: relative; }
 div.親3 {border:2px solid pink; width: 100%; height: 27.5vh; display: flex; flex-flow: column nowrap; position: relative; }
@@ -46,8 +46,8 @@ div.footer1 {border:2px solid orange; width: 70%; height: 300px; background-imag
  @media screen and (min-width:1400px){  
    
 div.祖 {border:2px solid lime; width: 101%; height: 283vh; background-color: rgba(200, 0, 100, 0); display :flex; flex-flow: column; position: relative; }
-header {border:2px solid aqua; position: relative; width: 50%; height: 25vh; box-sizing: border-box; font-size: 4vh; font-family: sans-serif; vertical-align: sub; }
-.No3_title {border:2px solid red; position: absolute; bottom: 2.5px; right: 0.5px; width: 80%; height: 110%; object-fit: cover; object-position: 0% 7%; box-sizing: border-box;}
+header {border:2px solid aqua; position: relative; width: 45%; height: 25vh; box-sizing: border-box; font-size: 4vh; font-family: sans-serif; vertical-align: sub; }
+.No3_title {border:2px solid red; width: 80%; height: 100%; object-fit: cover; object-position: 0% %; box-sizing: border-box;}
 div.親1 {border:2px solid pink; width: 100%; height: 75vh; background-image: url("Wall png 1.png"); background-size: 100% 100%; background-repeat: no-repeat;}
 div.親2 {border:2px solid aqua; width: 100%; height: 110vh; position: relative; }
 div.親3 {border:2px solid pink; width: 100%; height: 70vh; display: flex; flex-flow: column nowrap; position: relative; }
