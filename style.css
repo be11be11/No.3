@@ -2,8 +2,8 @@
 
 @media screen and (max-width:275px){  
 	
-div.frlex-area {border:3px solid lime; width: 99.9vw;  height: 125vh; }
-header {border:3px solid aqua; width: 95%; height: 15vh; box-sizing: border-box; }
+div.frlex-area {border:3px solid lime; width: 99.9vw;  height: 150vh; box-sizing: border-box; }
+header {border:3px solid aqua; width: 95%; height: 15vh; display: flex; box-sizing: border-box; }
 div.子0 {border:3px solid green; width: 15vw; height: 50%x; box-sizing: border-box; margin-bottom: 50%; margin-left: 12.5%; font-size: 1.5em; line-height: 1.5; letter-spacing: 0.1em; font-weight: 653; }		
 .title {border:3px solid red; position: absolute; bottom: 2.5px; right: 0.5px; width: 70%; height: 15vh; box-sizing: border-box; object-fit: cover; object-position: 0% 90%; }	
 div.親1 {border:3px solid pink; width: 99.9vw; height: 35vh; box-sizing: border-box; background-image: url("Wall png 1.png"); background-size: 131% auto; object-fit: cover; background-position: 0% 0%; background-repeat: no-repeat;}
@@ -15,14 +15,14 @@ div.子2 {border:3px solid green; box-sizing: border-box; position: absolute; wi
 div.子3 {border:3px solid orange; box-sizing: border-box; position: absolute; width: 48vw; height: 37%; margin-top: 55%; margin-left: 47%; z-index: 1; background-image: url("Bookdisplay png 2.png"); background-size:100% 100%; background-repeat: no-repeat; }
 div.子4 {border:3px solid red; box-sizing: border-box;position: absolute; position: relative; width: 99.9vw; height: 25vh; background-image: url("Spacedesign png 1.png"); background-size: 100% 100%; background-repeat: no-repeat; }	
 
-div.孫 {border:3px solid green;　box-sizing: border-box; position: absolute; width: 37.5%; height: 33%; margin-top: 30%; margin-left: 60%; z-index: 2; font-family: "Yu Mincho",serif; font-size: 0.8em; line-height: 1.7; letter-spacing: 0.1em; font-weight: 618; background-repeat: no-repeat; }		
+div.孫 {border:3px solid green;　box-sizing: border-box; position: absolute; width: 37.5%; height: 33%; margin-bottom: 15%; margin-left: 53%; z-index: 2; font-family: "Yu Mincho",serif; font-size: 0.8em; line-height: 1.7; letter-spacing: 0.1em; font-weight: 618; background-repeat: no-repeat; }		
 }
 
 
 @media screen and (min-width:276px) and (max-width:500px){
 
-div.frlex-area {border:4px solid lime; width: 99.9vw;  height: 125vh; }
-header {border:4px solid aqua; width: 95%; height: 15vh; box-sizing: border-box; }
+div.frlex-area {border:4px solid lime; width: 99.9vw;  height: 150vh; box-sizing: border-box;  }
+header {border:4px solid aqua; width: 95%; height: 15vh; display: flex; box-sizing: border-box; }
 div.子0 {border:4px solid green; width: 15vw; height: 50%x; box-sizing: border-box; margin-bottom: 50%; margin-left: 12.5%; font-size: 1.5em; line-height: 1.5; letter-spacing: 0.1em; font-weight: 653; }		
 .title {border:4px solid red; position: absolute; bottom: 2.5px; right: 0.5px; width: 70%; height: 15vh; box-sizing: border-box; object-fit: cover; object-position: 0% 90%; }	
 div.親1 {border:4px solid pink; width: 99.9vw; height: 35vh; box-sizing: border-box; background-image: url("Wall png 1.png"); background-size: 131% auto; object-fit: cover; background-position: 0% 0%; background-repeat: no-repeat;}
@@ -34,16 +34,16 @@ div.子2 {border:4px solid green; box-sizing: border-box; position: absolute; wi
 div.子3 {border:4px solid orange; box-sizing: border-box; position: absolute; width: 48vw; height: 37%; margin-top: 55%; margin-left: 47%; z-index: 1; background-image: url("Bookdisplay png 2.png"); background-size:100% 100%; background-repeat: no-repeat; }
 div.子4 {border:4px solid red; box-sizing: border-box;position: absolute; position: relative; width: 99.9vw; height: 25vh; background-image: url("Spacedesign png 1.png"); background-size: 100% 100%; background-repeat: no-repeat; }	
 
-div.孫 {border:4px solid green;　box-sizing: border-box; position: absolute; width: 37.5%; height: 33%; margin-top: 30%; margin-left: 60%; z-index: 2; font-family: "Yu Mincho",serif; font-size: 0.8em; line-height: 1.7; letter-spacing: 0.1em; font-weight: 618; background-repeat: no-repeat; }		
+div.孫 {border:4px solid green;　box-sizing: border-box; position: absolute; width: 37.5%; height: 33%; margin-bottom: 15%; margin-left: 53%; z-index: 2; font-family: "Yu Mincho",serif; font-size: 0.8em; line-height: 1.7; letter-spacing: 0.1em; font-weight: 618; background-repeat: no-repeat; }		
 }
 
 
  @media screen and (min-width:501px){
 
 
-div.frlex-area {border:4px solid lime; width: 99.9vw;  height: 125vh; }
+div.frlex-area {border:4px solid lime; width: 99.9vw;  height: 150vh; box-sizing: border-box; }
 header {border:4px solid aqua; width: 95%; height: 15vh; box-sizing: border-box; }
-div.子0 {border:4px solid green; width: 15vw; height: 50%x; box-sizing: border-box; margin-bottom: 50%; margin-left: 12.5%; font-size: 1.5em; line-height: 1.5; letter-spacing: 0.1em; font-weight: 653; }		
+div.子0 {border:4px solid green; width: 15vw; height: 50%x; display: flex; box-sizing: border-box; margin-bottom: 50%; margin-left: 12.5%; font-size: 1.5em; line-height: 1.5; letter-spacing: 0.1em; font-weight: 653; }		
 .title {border:4px solid red; position: absolute; bottom: 2.5px; right: 0.5px; width: 70%; height: 15vh; box-sizing: border-box; object-fit: cover; object-position: 0% 90%; }	
 div.親1 {border:4px solid pink; width: 99.9vw; height: 35vh; box-sizing: border-box; background-image: url("Wall png 1.png"); background-size: 131% auto; object-fit: cover; background-position: 0% 0%; background-repeat: no-repeat;}
 div.親2 {border:4px solid aqua; width: 99.9vw; height: 50vh; box-sizing: border-box; position: relative; }
@@ -54,25 +54,25 @@ div.子2 {border:4px solid green; box-sizing: border-box; position: absolute; wi
 div.子3 {border:4px solid orange; box-sizing: border-box; position: absolute; width: 48vw; height: 37%; margin-top: 55%; margin-left: 47%; z-index: 1; background-image: url("Bookdisplay png 2.png"); background-size:100% 100%; background-repeat: no-repeat; }
 div.子4 {border:4px solid red; box-sizing: border-box;position: absolute; position: relative; width: 99.9vw; height: 25vh; background-image: url("Spacedesign png 1.png"); background-size: 100% 100%; background-repeat: no-repeat; }	
 
-div.孫 {border:4px solid green;　box-sizing: border-box; position: absolute; width: 37.5%; height: 33%; margin-top: 30%; margin-left: 60%; z-index: 2; font-family: "Yu Mincho",serif; font-size: 0.8em; line-height: 1.7; letter-spacing: 0.1em; font-weight: 618; background-repeat: no-repeat; }		
+div.孫 {border:4px solid green;　box-sizing: border-box; position: absolute; width: 37.5%; height: 33%; margin-bottom: 15%; margin-left: 53%; z-index: 2; font-family: "Yu Mincho",serif; font-size: 0.8em; line-height: 1.7; letter-spacing: 0.1em; font-weight: 618; background-repeat: no-repeat; }		
 }
 
    
  @media screen and (min-width:1201px) and {  
 	 
-div.frlex-area {border:8px solid lime; width: 99.9vw;  height: 270vh; }
-header {border:8px solid aqua; width: 65vw; height: 25vh; box-sizing: border-box; }
+div.frlex-area {border:8px solid lime; width: 99.9vw;  height: 270vh; box-sizing: border-box; }
+header {border:8px solid aqua; width: 65vw; height: 35vh; display: flex; box-sizing: border-box; }
 div.子0 {border:8px solid green; width: 17.5vw; height: 75%x; box-sizing: border-box; margin-bottom: 50%; margin-left: 15%; padding-left: 20%; font-size: 1.85em; line-height: 1.5; letter-spacing: 0.85em; font-weight: 653; }		
-.title {border:8px solid red; position: absolute; bottom: 2.5px; right: 0.5px; width: 70%; height: 25vh; box-sizing: border-box; object-fit: cover; object-position: 0% 90%; }	
-div.親1 {border:8px solid pink; width: 99.9vw; height: 35vh; box-sizing: border-box; background-image: url("Wall png 1.png"); background-size: 131% auto; object-fit: cover; background-position: 0% 0%; background-repeat: no-repeat;}
-div.親2 {border:8px solid aqua; width: 99.9vw; height: 50vh; box-sizing: border-box; position: relative; }
-div.親3 {border:8px solid pink; width: 99.9vw; height: 26vh; display: flex; box-sizing: border-box; column nowrap; position: relative; }
+.title {border:8px solid red; position: absolute; bottom: 2.5px; right: 0.5px; width: 70%; height: 27vh; box-sizing: border-box; object-fit: cover; object-position: 0% 90%; }	
+div.親1 {border:8px solid pink; width: 99.9vw; height: 65vh; box-sizing: border-box; background-image: url("Wall png 1.png"); background-size: 131% auto; object-fit: cover; background-position: 0% 0%; background-repeat: no-repeat;}
+div.親2 {border:8px solid aqua; width: 99.9vw; height: 110vh; box-sizing: border-box; position: relative; }
+div.親3 {border:8px solid pink; width: 99.9vw; height: 70vh; display: flex; box-sizing: border-box; column nowrap; position: relative; }
 	
-div.子1 {border:8px solid navy; box-sizing: border-box; position: absolute; width: 36vw; height: 38%; margin-top: 10%; margin-left: 60%; z-index: 2; background-image: url("Bookdisplay title.png"); background-size:100% 100%; background-repeat: no-repeat; }	
-div.子2 {border:8px solid green; box-sizing: border-box; position: absolute; width: 68.5vw; height: 50%; margin-top: 10%; margin-left: 1.5%; z-index: -5; background-image: url("Bookdisplay png 1.png"); background-size:100% 100%; background-repeat: no-repeat; }
-div.子3 {border:8px solid orange; box-sizing: border-box; position: absolute; width: 48vw; height: 37%; margin-top: 55%; margin-left: 47%; z-index: 1; background-image: url("Bookdisplay png 2.png"); background-size:100% 100%; background-repeat: no-repeat; }
-div.子4 {border:8px solid red; box-sizing: border-box;position: absolute; position: relative; width: 99.9vw; height: 25vh; background-image: url("Spacedesign png 1.png"); background-size: 100% 100%; background-repeat: no-repeat; }	
+div.子1 {border:8px solid navy; box-sizing: border-box; position: absolute; width: 20%; height: 35%; margin-top: 1.5%; margin-left: 65%; z-index: 2; z-index: 2; background-image: url("Bookdisplay title.png"); background-size:100% 100%; background-repeat: no-repeat; }	
+div.子2 {border:8px solid green; box-sizing: border-box; position: absolute; width: 50%; height: 60%; margin-top: 1.5%; margin-left: 10%; z-index: -5; background-image: url("Bookdisplay png 1.png"); background-size:100% 100%; background-repeat: no-repeat; }
+div.子3 {border:8px solid orange; box-sizing: border-box; position: absolute; width: 35%; height: 43%; margin-top: 25%; margin-left: 50%; z-index: 1; background-image: url("Bookdisplay png 2.png"); background-size:100% 100%; background-repeat: no-repeat; }
+div.子4 {border:8px solid red; box-sizing: border-box;position: absolute; position: relative; width: 100%; height: 100%; object-fit: contain; background-size: contain; background-position: 50%  50%;background-image: url("Spacedesign png 1.png"); background-size: 100% 100%; background-repeat: no-repeat; }	
 
-div.孫 {border:8px solid green;　box-sizing: border-box; position: absolute; width: 37.5%; height: 33%; margin-top: 30%; margin-left: 60%; z-index: 2; font-family: "Yu Mincho",serif; font-size: 0.8em; line-height: 1.7; letter-spacing: 0.1em; font-weight: 618; background-repeat: no-repeat; }		
+div.孫 {border:8px solid green;　box-sizing: border-box; position: absolute; width: 35%; height: 75%; margin-bottom: 15%; margin-left: 53%; z-index: 2; font-family: "Yu Mincho",serif; font-size: 0.8em; line-height: 1.7; letter-spacing: 0.1em; font-weight: 618; background-repeat: no-repeat; }		
 }
 
