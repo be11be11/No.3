@@ -2,13 +2,13 @@
 
 @media screen and (max-width:275px){  
 	
-div.frlex-area {border:2.5px solid lime; width: 100.5vh;  height: 125vh; }
+div.frlex-area {border:2.5px solid lime; width: 100.5vw;  height: 125vh; }
 header {border:2.5px solid aqua; width: 95%; height: 15vh; box-sizing: border-box; }
-div.子0 {border:2.5px solid green; width: 15vh; height: 50%x; box-sizing: border-box; margin-bottom: 50%; margin-left: 25%; font-size: 1.2em; line-height: 1.5; letter-spacing: 0.1em; font-weight: 653; }		
+div.子0 {border:2.5px solid green; width: 15vw; height: 50%x; box-sizing: border-box; margin-bottom: 50%; margin-left: 25%; font-size: 1.2em; line-height: 1.5; letter-spacing: 0.1em; font-weight: 653; }		
 .title {border:2.5px solid red; position: absolute; bottom: 2.5px; right: 0.5px; width: 70%; height: 100%; box-sizing: border-box; object-fit: cover; object-position: 0% 90%; }	
-div.親1 {border:2.5px solid pink; width: 99.9vh; height: 35vh; box-sizing: border-box; background-image: url("Wall png 1.png"); background-size: 131% auto; object-fit: cover; background-position: 0% 0%; background-repeat: no-repeat;}
-div.親2 {border:2.5px solid aqua; width: 99.9vh; height: 50vh; box-sizing: border-box; position: relative; }
-div.親3 {border:2.5px solid pink; width: 99.9vh; height: 26vh; display: flex; box-sizing: border-box; column nowrap; position: relative; }
+div.親1 {border:2.5px solid pink; width: 99.9vw; height: 35vh; box-sizing: border-box; background-image: url("Wall png 1.png"); background-size: 131% auto; object-fit: cover; background-position: 0% 0%; background-repeat: no-repeat;}
+div.親2 {border:2.5px solid aqua; width: 99.9vw; height: 50vh; box-sizing: border-box; position: relative; }
+div.親3 {border:2.5px solid pink; width: 99.9vw; height: 26vh; display: flex; box-sizing: border-box; column nowrap; position: relative; }
 	
 div.子1 {border:2.5px solid navy; box-sizing: border-box; position: absolute; width: 36vw; height: 38%; margin-top: 10%; margin-left: 60%; z-index: 2; background-image: url("Bookdisplay title.png"); background-size:100% 100%; background-repeat: no-repeat; }	
 div.子2 {border:2.5px solid green; box-sizing: border-box; position: absolute; width: 68.5vw; height: 50%; margin-top: 10%; margin-left: 1.5%; z-index: -5; background-image: url("Bookdisplay png 1.png"); background-size:100% 100%; background-repeat: no-repeat; }
@@ -21,13 +21,13 @@ div.孫 {border:2.5px solid green;　box-sizing: border-box; position: absolute;
 
 @media screen and (min-width:276px) and (max-width:500px){
 
-div.frlex-area {border:2.5px solid lime; width: 100.5vh;  height: 125vh; }
+div.frlex-area {border:2.5px solid lime; width: 100.5vw;  height: 125vh; }
 header {border:2.5px solid aqua; width: 95%; height: 15vh; box-sizing: border-box; }
-div.子0 {border:2.5px solid green; width: 15vh; height: 50%x; box-sizing: border-box; margin-bottom: 50%; margin-left: 25%; font-size: 1.2em; line-height: 1.5; letter-spacing: 0.1em; font-weight: 653; }		
+div.子0 {border:2.5px solid green; width: 15vw; height: 50%x; box-sizing: border-box; margin-bottom: 50%; margin-left: 25%; font-size: 1.2em; line-height: 1.5; letter-spacing: 0.1em; font-weight: 653; }		
 .title {border:2.5px solid red; position: absolute; bottom: 2.5px; right: 0.5px; width: 70%; height: 100%; box-sizing: border-box; object-fit: cover; object-position: 0% 90%; }	
-div.親1 {border:2.5px solid pink; width: 99.9vh; height: 35vh; box-sizing: border-box; background-image: url("Wall png 1.png"); background-size: 131% auto; object-fit: cover; background-position: 0% 0%; background-repeat: no-repeat;}
-div.親2 {border:2.5px solid aqua; width: 99.9vh; height: 50vh; box-sizing: border-box; position: relative; }
-div.親3 {border:2.5px solid pink; width: 99.9vh; height: 26vh; display: flex; box-sizing: border-box; column nowrap; position: relative; }
+div.親1 {border:2.5px solid pink; width: 99.9vw; height: 35vh; box-sizing: border-box; background-image: url("Wall png 1.png"); background-size: 131% auto; object-fit: cover; background-position: 0% 0%; background-repeat: no-repeat;}
+div.親2 {border:2.5px solid aqua; width: 99.9vw; height: 50vh; box-sizing: border-box; position: relative; }
+div.親3 {border:2.5px solid pink; width: 99.9vw; height: 26vh; display: flex; box-sizing: border-box; column nowrap; position: relative; }
 	
 div.子1 {border:2.5px solid navy; box-sizing: border-box; position: absolute; width: 36vw; height: 38%; margin-top: 10%; margin-left: 60%; z-index: 2; background-image: url("Bookdisplay title.png"); background-size:100% 100%; background-repeat: no-repeat; }	
 div.子2 {border:2.5px solid green; box-sizing: border-box; position: absolute; width: 68.5vw; height: 50%; margin-top: 10%; margin-left: 1.5%; z-index: -5; background-image: url("Bookdisplay png 1.png"); background-size:100% 100%; background-repeat: no-repeat; }
@@ -40,13 +40,13 @@ div.孫 {border:2.5px solid green;　box-sizing: border-box; position: absolute;
 
  @media screen and (min-width:501px){
 
-div.frlex-area {border:3.5px solid lime; width: 100.5vh;  height: 125vh; }
+div.frlex-area {border:3.5px solid lime; width: 100.5vw;  height: 125vh; }
 header {border:3.5px solid aqua; width: 95%; height: 15vh; box-sizing: border-box; }
-div.子0 {border:3.5px solid green; width: 15vh; height: 50%x; box-sizing: border-box; margin-bottom: 50%; margin-left: 25%; font-size: 1.2em; line-height: 1.5; letter-spacing: 0.1em; font-weight: 653; }		
+div.子0 {border:3.5px solid green; width: 15vw; height: 50%x; box-sizing: border-box; margin-bottom: 50%; margin-left: 25%; font-size: 1.2em; line-height: 1.5; letter-spacing: 0.1em; font-weight: 653; }		
 .title {border:3.5px solid red; position: absolute; bottom: 2.5px; right: 0.5px; width: 70%; height: 100%; box-sizing: border-box; object-fit: cover; object-position: 0% 90%; }	
-div.親1 {border:3.5px solid pink; width: 99.9vh; height: 35vh; box-sizing: border-box; background-image: url("Wall png 1.png"); background-size: 131% auto; object-fit: cover; background-position: 0% 0%; background-repeat: no-repeat;}
-div.親2 {border:3.5px solid aqua; width: 99.9vh; height: 50vh; box-sizing: border-box; position: relative; }
-div.親3 {border:3.5px solid pink; width: 99.9vh; height: 26vh; display: flex; box-sizing: border-box; column nowrap; position: relative; }
+div.親1 {border:3.5px solid pink; width: 99.9vw; height: 35vh; box-sizing: border-box; background-image: url("Wall png 1.png"); background-size: 131% auto; object-fit: cover; background-position: 0% 0%; background-repeat: no-repeat;}
+div.親2 {border:3.5px solid aqua; width: 99.9vw; height: 50vh; box-sizing: border-box; position: relative; }
+div.親3 {border:3.5px solid pink; width: 99.9vw; height: 26vh; display: flex; box-sizing: border-box; column nowrap; position: relative; }
 	
 div.子1 {border:3.5px solid navy; box-sizing: border-box; position: absolute; width: 36vw; height: 38%; margin-top: 10%; margin-left: 60%; z-index: 2; background-image: url("Bookdisplay title.png"); background-size:100% 100%; background-repeat: no-repeat; }	
 div.子2 {border:3.5px solid green; box-sizing: border-box; position: absolute; width: 68.5vw; height: 50%; margin-top: 10%; margin-left: 1.5%; z-index: -5; background-image: url("Bookdisplay png 1.png"); background-size:100% 100%; background-repeat: no-repeat; }
@@ -59,13 +59,13 @@ div.孫 {border:3.5px solid green;　box-sizing: border-box; position: absolute;
    
  @media screen and (min-width:1201px) and {  
 	 
-div.frlex-area {border:5px solid lime; width: 100.5vh;  height: 125vh; }
+div.frlex-area {border:5px solid lime; width: 100.5vw;  height: 125vh; }
 header {border:5px solid aqua; width: 95%; height: 15vh; box-sizing: border-box; }
-div.子0 {border:5px solid green; width: 15vh; height: 50%x; box-sizing: border-box; margin-bottom: 50%; margin-left: 25%; font-size: 1.2em; line-height: 1.5; letter-spacing: 0.1em; font-weight: 653; }		
+div.子0 {border:5px solid green; width: 15vw; height: 50%x; box-sizing: border-box; margin-bottom: 50%; margin-left: 25%; font-size: 1.2em; line-height: 1.5; letter-spacing: 0.1em; font-weight: 653; }		
 .title {border:5px solid red; position: absolute; bottom: 2.5px; right: 0.5px; width: 70%; height: 100%; box-sizing: border-box; object-fit: cover; object-position: 0% 90%; }	
-div.親1 {border:5px solid pink; width: 99.9vh; height: 35vh; box-sizing: border-box; background-image: url("Wall png 1.png"); background-size: 131% auto; object-fit: cover; background-position: 0% 0%; background-repeat: no-repeat;}
-div.親2 {border:5px solid aqua; width: 99.9vh; height: 50vh; box-sizing: border-box; position: relative; }
-div.親3 {border:5px solid pink; width: 99.9vh; height: 26vh; display: flex; box-sizing: border-box; column nowrap; position: relative; }
+div.親1 {border:5px solid pink; width: 99.9vw; height: 35vh; box-sizing: border-box; background-image: url("Wall png 1.png"); background-size: 131% auto; object-fit: cover; background-position: 0% 0%; background-repeat: no-repeat;}
+div.親2 {border:5px solid aqua; width: 99.9vw; height: 50vh; box-sizing: border-box; position: relative; }
+div.親3 {border:5px solid pink; width: 99.9vw; height: 26vh; display: flex; box-sizing: border-box; column nowrap; position: relative; }
 	
 div.子1 {border:5px solid navy; box-sizing: border-box; position: absolute; width: 36vw; height: 38%; margin-top: 10%; margin-left: 60%; z-index: 2; background-image: url("Bookdisplay title.png"); background-size:100% 100%; background-repeat: no-repeat; }	
 div.子2 {border:5px solid green; box-sizing: border-box; position: absolute; width: 68.5vw; height: 50%; margin-top: 10%; margin-left: 1.5%; z-index: -5; background-image: url("Bookdisplay png 1.png"); background-size:100% 100%; background-repeat: no-repeat; }
